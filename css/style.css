@@ -48,33 +48,6 @@ p{
     background-image: url(../images/whatsapp.jpg);
 }
 
-@media screen and (max-width: 915px){
-    .boton{
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        text-decoration: none;
-        width: 100%;
-        height: 70px;
-        color: white;
-        top: 2px;
-        font-size: 20px;
-        font-weight: 500;
-        border: none;
-        cursor: pointer;
-        text-transform: uppercase;
-        transition: .3s ease all;
-        border-radius: 10px;
-        position: relative;
-        overflow: hidden;
-        background-image: url(../images/whatsapp.jpg);
-    }
-}
-
-.boton.uno:hover::after{
-    top: 0;
-}
-
 .boton.uno::after{
     content: "";
     width: 100%;
@@ -102,10 +75,6 @@ p{
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-}
-
-.bebe:hover{
-    box-shadow: 5px 5px 10px darkmagenta, -5px -5px 10px blue;
 }
 
 .niños{
@@ -152,12 +121,6 @@ p{
     overflow: hidden;
     transition: 0.2s;
 }
-
-.btn-neon:hover{
-    background: #a945c7;
-    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
-    transition-delay: 0.5s;
-}
 /*Pagina de bebes*/
 .hr1{
     width: 100%;
@@ -171,27 +134,11 @@ p{
     border: solid white 5px;
 }
 
-.descripcion-pijamas:hover{
-    box-shadow: 5px 5px 10px darkmagenta, -5px -5px 10px blue;    
-}
-
 .fa-brands{
     font-size: 40px;
     padding: 10px;
     margin: 5px;
     border: solid white 2px;
-}
-
-.fa-whatsapp:hover{
-    color: darkgreen;
-}
-
-.fa-facebook:hover{
-    color: darkblue;
-}
-
-.fa-facebook-messenger:hover{
-    color: darkblue;
 }
 
 .titulo-pijamas-bb{
@@ -205,23 +152,6 @@ p{
     width: 100%;
     height: 5px;
     background-color: darkgreen;
-}
-
-.anmpijam:hover{
-    animation: bounce;
-    animation-duration: 1s;
-}
-
-@media screen and (max-width: 915px){
-    .redes-soc{
-        display: flex;
-    }
-}
-
-.color-nombre-menu:hover{
-    color: darkblue;
-    animation: bounceIn;
-    animation-duration: 1s;
 }
 
 .lmdvs{
@@ -255,30 +185,4 @@ p{
     text-align: center;
     text-decoration: none;
     color: black;
-}
-
-@media screen and (max-width: 915px){
-    .navegacionpuntero{
-        display: flex;
-    }
-    .navegacionpuntero{
-        position: fixed;
-        bottom: 20px;
-        left: 5px;
-    }
-    .tamañozap{
-        text-align: center;
-        width: 60px;
-        padding: 0px;
-        margin: 5px;
-        border: solid 0px;
-        border-radius: 20px;
-        background-color: white;
-    }
-    
-    .nonehjk{
-        text-align: center;
-        text-decoration: none;
-        color: black;
-    }
 }
